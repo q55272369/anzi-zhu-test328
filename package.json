@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export && rimraf .next/cache/webpack/client-production/0.pack.gz",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "analyze": "cross-env ANALYZE=true next build",
