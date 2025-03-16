@@ -30,7 +30,8 @@ const nextConfig = {
                 'webmention.io',
                 'ko-fi.com',
                 'e.hiphotos.baidu.com',
-                'fuss10.elemecdn.com'
+                'fuss10.elemecdn.com',
+                'file.notion.so'
         ],
         remotePatterns: [
             {
