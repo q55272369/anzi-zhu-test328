@@ -18,7 +18,19 @@ const nextConfig = {
         return config
     },
     images: {
-        domains: ['static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'images.unsplash.com'],
+        // 图片压缩
+        formats: ['image/avif', 'image/webp'],
+        // 允许next/image加载的图片 域名
+        domains: ['static.anzifan.com', 'cdn.sspai.com', 'cdn.dribbble.com', 'image.freepik.com', 'avatars.githubusercontent.com', 'cdn.jsdelivr.net', 'images.unsplash.com',
+                 'img.notionusercontent.com',
+                'gravatar.com',
+                'www.notion.so',
+                'source.unsplash.com',
+                'p1.qhimg.com',
+                'webmention.io',
+                'ko-fi.com',
+                'e.hiphotos.baidu.com'
+        ],
         remotePatterns: [
             {
                 protocol: 'https',
