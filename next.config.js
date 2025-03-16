@@ -29,7 +29,8 @@ const nextConfig = {
                 'p1.qhimg.com',
                 'webmention.io',
                 'ko-fi.com',
-                'e.hiphotos.baidu.com'
+                'e.hiphotos.baidu.com',
+                'fuss10.elemecdn.com'
         ],
         remotePatterns: [
             {
