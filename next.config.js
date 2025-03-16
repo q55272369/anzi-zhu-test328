@@ -25,6 +25,7 @@ const nextConfig = {
                 hostname: '*.amazonaws.com',
             },
         ],
+        unoptimized: true, // 禁用图片优化（静态导出需要）
     },
     output: 'export', // 启用静态导出模式
     trailingSlash: true, // 确保路径兼容性（可选）
