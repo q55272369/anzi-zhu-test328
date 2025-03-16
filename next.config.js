@@ -26,6 +26,17 @@ const nextConfig = {
             },
         ],
     },
+    output: 'export',
+    distDir: 'out',
+    exportPathMap: async function (
+        defaultPathMap,
+        { dev, dir, outDir, distDir, buildId }
+    ) {
+        // export 静态导出时 忽略/pages/sitemap.xml.js ， 否则和getServerSideProps这个动态文件冲突
+        const pages = { ...defaultPathMap }
+        // delete pages['/sitemap.xml']
+        return pages
+    }
 }
 
 
