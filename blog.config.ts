@@ -77,7 +77,7 @@ interface BlogConfig {
 
 const CONFIG: BlogConfig = {
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID ?? '12e36ba33dc48127bb08ef357057d4ae',
+    process.env.NOTION_PAGE_ID ?? '1b336ba33dc4811687f9fab68e24a0b7',
   NOTION_SITE_NAME: 'anzifan',
   NEXT_REVALIDATE_SECONDS: 60,
   FORCE_UPDATE_TIME: 1620000000000,
