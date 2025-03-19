@@ -119,7 +119,7 @@ const CONFIG: BlogConfig = {
       COLOR: 'red',
     },
   ],
-  ENABLE_COMMENT: false,
+  ENABLE_COMMENT: true,
   COMMENT_CONFIG: {
     GISCUS: {
       REPO: 'MannyCooper/giscus-discussions',
